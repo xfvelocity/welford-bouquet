@@ -1,0 +1,39 @@
+@media (min-width: 769px) {
+}
+
+@media (min-width: 840px) {
+  .favourites {
+    &-column {
+      width: 300px;
+    }
+  }
+}
+
+@media (min-width: 950px) {
+  .main {
+    &-bottom {
+      img {
+        width: 30%;
+      }
+    }
+  }
+  nav {
+    i {
+      margin: 0 50px;
+    }
+  }
+}
+
+@media (min-width: 1250px) {
+  .main {
+    margin-top: 30px;
+    img {
+      width: 610px;
+    }
+    &-bottom {
+      img {
+        width: 400px;
+      }
+    }
+  }
+}
