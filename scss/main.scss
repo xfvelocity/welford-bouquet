@@ -81,6 +81,7 @@ nav {
     .sale {
       color: #535353;
       text-decoration: line-through;
+      font-size: 15px;
       &-icon {
         background: black;
         margin: 0;
@@ -102,6 +103,17 @@ nav {
 }
 .padding {
   padding-top: 50px;
+}
+#full {
+  display: none;
+}
+@media (min-width: 769px) {
+  #small {
+    display: none;
+  }
+  #full {
+    display: block;
+  }
 }
 
 footer {
