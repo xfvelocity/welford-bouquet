@@ -1,0 +1,24 @@
+{
+  "name": "welford-bouquet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfvelocity/welford-bouquet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xfvelocity/welford-bouquet/issues"
+  },
+  "homepage": "https://github.com/xfvelocity/welford-bouquet#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-uglify-es": "^1.0.4"
+  }
+}
