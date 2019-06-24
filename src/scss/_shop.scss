@@ -1,6 +1,7 @@
 .shop-container {
   width: 90%;
   margin: 20px auto;
+  height: auto;
   border: 1px solid rgb(190, 190, 190);
   .selection {
     @include flex;
@@ -50,11 +51,10 @@
 }
 
 .filter-open {
-  display: flex;
   flex-flow: column wrap;
   height: 100%;
   background: rgb(240, 240, 240);
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 100;
   width: 300px;
@@ -116,7 +116,7 @@
 
 .overlay {
   display: none;
-  position: absolute;
+  position: fixed;
   height: 100%;
   width: 100vw;
   top: 0;
@@ -124,4 +124,24 @@
   right: 0;
   background: rgba(0, 0, 0, 0.5);
   z-index: 99;
+}
+
+.sort-open {
+  background: rgb(230, 230, 230);
+  position: absolute;
+  z-index: 10;
+  padding: 5px;
+  width: 140px;
+  display: none;
+  text-align: center;
+  ul {
+    padding: 0;
+  }
+  border: 1px solid rgb(190, 190, 190);
+  li {
+    padding: 2px 0;
+    &:hover {
+      background: darken(rgb(230, 230, 230), 2);
+    }
+  }
 }

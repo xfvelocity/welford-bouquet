@@ -2,7 +2,7 @@ const nav = document.querySelector('.filter-open');
 const body = document.querySelector('main');
 const overlay = document.querySelector('.overlay');
 const exit = document.getElementById('x');
-const menu = document.getElementById('menu');
+const menu = document.getElementById('filter');
 
 open = e => {
   e.preventDefault();
@@ -20,3 +20,18 @@ close = () => {
 
 exit.addEventListener('click', close);
 menu.addEventListener('click', open);
+
+const sort = document.getElementById('sort');
+const dropdown = document.querySelector('.sort-open');
+let sortopen = false;
+
+sort.addEventListener('click', e => {
+  e.preventDefault();
+  if (sortopen === true) {
+    dropdown.style.display = 'none';
+    sortopen = false;
+  } else {
+    dropdown.style.display = 'block';
+    sortopen = true;
+  }
+});
