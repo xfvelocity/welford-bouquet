@@ -14,7 +14,6 @@
       font-size: 18px;
       margin: 5px 3px;
     }
-    .sort,
     .filter {
       text-align: center;
       width: 45%;
@@ -22,8 +21,15 @@
         background: darken(rgb(230, 230, 230), 1.5);
       }
     }
-    .sort {
-      border-right: 1px solid rgb(190, 190, 190);
+  }
+  .sort {
+    padding-left: 25px;
+    p,
+    select {
+      display: inline-block;
+    }
+    p {
+      font-weight: 450;
     }
   }
   .shop-items {
@@ -124,24 +130,4 @@
   right: 0;
   background: rgba(0, 0, 0, 0.5);
   z-index: 99;
-}
-
-.sort-open {
-  background: rgb(230, 230, 230);
-  position: absolute;
-  z-index: 10;
-  padding: 5px;
-  width: 140px;
-  display: none;
-  text-align: center;
-  ul {
-    padding: 0;
-  }
-  border: 1px solid rgb(190, 190, 190);
-  li {
-    padding: 2px 0;
-    &:hover {
-      background: darken(rgb(230, 230, 230), 2);
-    }
-  }
 }

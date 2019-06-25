@@ -1,3 +1,13 @@
+@media (min-width: 630px) {
+  .shop-container {
+    .shop-items {
+      .shop-item {
+        width: 240px;
+      }
+    }
+  }
+}
+
 @media (min-width: 769px) {
 }
 
@@ -35,5 +45,23 @@
         width: 400px;
       }
     }
+  }
+}
+
+@media (min-width: 1500px) {
+  .shop-container {
+    display: flex;
+    align-items: flex-start;
+    width: 75%;
+    .selection {
+      display: none;
+    }
+  }
+  .filter-open {
+    display: inline-block;
+    position: relative;
+    left: 0;
+    margin: 0;
+    width: 800px;
   }
 }
