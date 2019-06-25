@@ -155,4 +155,12 @@ footer {
   }
 }
 
+nav a {
+  cursor: default;
+}
+.active {
+  cursor: pointer;
+  color: blue;
+}
+
 @import 'media';
