@@ -6,6 +6,13 @@
       }
     }
   }
+  .item-container {
+    .item-recommends {
+      .shop-item {
+        width: 20%;
+      }
+    }
+  }
 }
 
 @media (min-width: 769px) {
@@ -30,6 +37,23 @@
   nav {
     i {
       margin: 0 50px;
+    }
+  }
+  .item-container {
+    .item-section {
+      display: flex;
+      flex-wrap: wrap;
+      width: 900px;
+      .item-text {
+        width: 40%;
+        margin-left: 20px;
+      }
+    }
+    .item-recommends {
+      width: 900px;
+      .shop-item {
+        width: 200px;
+      }
     }
   }
 }

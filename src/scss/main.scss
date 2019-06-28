@@ -1,5 +1,6 @@
 @import 'config';
 @import 'shop';
+@import 'item';
 
 header {
   text-align: center;
@@ -107,7 +108,7 @@ nav {
 #full {
   display: none;
 }
-@media (min-width: 769px) {
+@media (min-width: 1000px) {
   #small {
     display: none;
   }
