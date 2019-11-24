@@ -37,7 +37,7 @@ include('inc/header.php');
       <div class="item-recommends">
         <h3>Recommended for you</h3>
         <div class="shop-item">
-          <a href="esk.html">
+          <a href="esk.php">
             <img src="img/flower6.webp" alt="Flowers in a mug" />
             <h4>ESK</h4>
             <p>£110.00</p>
@@ -45,7 +45,7 @@ include('inc/header.php');
         </div>
 
         <div class="shop-item">
-          <a href="wc.html">
+          <a href="wc.php">
             <img src="img/flower5.webp" alt="Pink flowers" />
             <h4>WEST CLIFF</h4>
             <p><span class="sale">£290.00</span> £250.00</p>
@@ -53,7 +53,7 @@ include('inc/header.php');
         </div>
 
         <div class="shop-item">
-          <a href="sandsend.html">
+          <a href="sandsend.php">
             <img src="img/flower7.webp" alt="Orange flowers" />
             <h4>SANDSEND</h4>
             <p>£360.00</p>
@@ -61,7 +61,7 @@ include('inc/header.php');
         </div>
 
         <div class="shop-item">
-          <a href="esk.html">
+          <a href="esk.php">
             <img src="img/flower6.webp" alt="Flowers in a mug" />
             <h4>ESK</h4>
             <p>£110.00</p>
