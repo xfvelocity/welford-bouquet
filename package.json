@@ -1,11 +1,7 @@
 {
   "name": "welford-bouquet",
   "version": "1.0.0",
-<<<<<<< HEAD
   "description": "Welford Bouquet code challenge",
-=======
-  "description": "",
->>>>>>> 1bbb306a7f1c43a63edffab77427d2c119931635
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

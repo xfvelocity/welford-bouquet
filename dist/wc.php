@@ -5,13 +5,13 @@ include('inc/header.php');
     <div class="item-container">
       <div class="item-section">
         <div class="item-img">
-          <img src="img/flower5.jpg" />
+          <img src="img/flower5.webp" />
         </div>
         <div class="item-text">
           <div class="item-title">
             <h2>WEST CLIFF</h2>
             <p><span class="sale">£290.00</span> £250.00</p>
-            <img class="rating" src="img/rating.png" alt="">
+            <img class="rating" src="img/rating.webp" alt="">
           </div>
           <div class="item-description">
             <ul>
@@ -38,7 +38,7 @@ include('inc/header.php');
         <h3>Recommended for you</h3>
         <div class="shop-item">
           <a href="esk.html">
-            <img src="img/flower6.jpg" alt="Flowers in a mug" />
+            <img src="img/flower6.webp" alt="Flowers in a mug" />
             <h4>ESK</h4>
             <p>£110.00</p>
           </a>
@@ -46,7 +46,7 @@ include('inc/header.php');
 
         <div class="shop-item">
           <a href="wcc.html">
-            <img src="img/flower8.jpg" alt="Flowers in a vase" />
+            <img src="img/flower8.webp" alt="Flowers in a vase" />
             <h4 id="small" title="WEST CLIFF CUSHION">WC CUSHION</h4>
             <h4 id="full">WEST CLIFF CUSHION</h4>
             <p>£250.00</p>
@@ -55,7 +55,7 @@ include('inc/header.php');
 
         <div class="shop-item">
           <a href="sandsend.html">
-            <img src="img/flower7.jpg" alt="Orange flowers" />
+            <img src="img/flower7.webp" alt="Orange flowers" />
             <h4>SANDSEND</h4>
             <p>£360.00</p>
           </a>
@@ -63,7 +63,7 @@ include('inc/header.php');
 
         <div class="shop-item">
           <a href="esk.html">
-            <img src="img/flower6.jpg" alt="Flowers in a mug" />
+            <img src="img/flower6.webp" alt="Flowers in a mug" />
             <h4>ESK</h4>
             <p>£110.00</p>
           </a>
