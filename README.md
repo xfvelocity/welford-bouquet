@@ -1,9 +1,3 @@
 # welford-bouquet
 
-Welford Bouquet code challenge
-
-This is a webpage created as a code challenge for 'Welford Bouquet'.
-Was created in just under a day, fully responsive,
-built with a mobile first approach using HTML & CSS (SCSS).
-
-Currently working on this to add further pages, included use of Gulp & JavaScript.
+This was originally created as a programming challenge for a job application. I was tasked with recreating the webpage from 'Design.png'. I decided to exand upon this design and create other pages to put on my portfolio. Still a work in progress.
