@@ -1,0 +1,133 @@
+.shop-container {
+  width: 90%;
+  margin: 20px auto;
+  height: auto;
+  border: 1px solid rgb(190, 190, 190);
+  .selection {
+    @include flex;
+    justify-content: center;
+    background: rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(190, 190, 190);
+    margin-bottom: 10px;
+    h2 {
+      font-weight: 450;
+      font-size: 18px;
+      margin: 5px 3px;
+    }
+    .filter {
+      text-align: center;
+      width: 45%;
+      &:hover {
+        background: darken(rgb(230, 230, 230), 1.5);
+      }
+    }
+  }
+  .sort {
+    padding-left: 25px;
+    p,
+    select {
+      display: inline-block;
+    }
+    p {
+      font-weight: 450;
+    }
+  }
+  .shop-items {
+    @include flex;
+    justify-content: center;
+    .shop-item {
+      width: 45%;
+      margin: 10px 5px;
+      text-align: center;
+      padding: 10px 5px;
+      cursor: pointer;
+      h4,
+      p {
+        margin: 3px;
+        font-size: 12px;
+      }
+      img {
+        width: 100%;
+      }
+      &:hover {
+        border: 1px solid rgb(221, 221, 221);
+      }
+    }
+  }
+}
+
+.filter-open {
+  flex-flow: column wrap;
+  height: 100%;
+  background: rgb(240, 240, 240);
+  position: fixed;
+  top: 0;
+  right: 100;
+  width: 300px;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 450;
+  z-index: 100;
+  display: none;
+
+  h3 {
+    font-weight: 450;
+    padding-left: 15px;
+  }
+
+  ul {
+    padding: 5px 30px;
+
+    li {
+      margin: 15px 0;
+
+      i {
+        float: right;
+        color: grey;
+      }
+    }
+  }
+
+  p {
+    padding: 5px 30px;
+
+    i {
+      margin-right: 7px;
+    }
+  }
+
+  hr {
+    width: 100%;
+    color: rgb(235, 235, 235);
+  }
+
+  .menu-header {
+    background: rgb(230, 230, 230);
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 14px;
+
+    #x {
+      padding: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .filter-section {
+    margin: 10px 0;
+  }
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}

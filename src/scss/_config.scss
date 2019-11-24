@@ -1,0 +1,82 @@
+$secondary-color: rgb(204, 204, 204);
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+main,
+.shop-container,
+.filter-open,
+.overlay {
+  height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@mixin img($width) {
+  width: $width;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@keyframes slideRight {
+  0% {
+    right: 0;
+  }
+
+  100% {
+    right: 70vw;
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    right: 70vw;
+  }
+
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes navOpen {
+  0% {
+    right: 100vw;
+  }
+
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes navClose {
+  0% {
+    right: 0;
+  }
+
+  100% {
+    right: 100vw;
+  }
+}

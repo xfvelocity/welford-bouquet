@@ -1,0 +1,198 @@
+@import 'config';
+@import 'shop';
+@import 'item';
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #cecece;
+
+  h1 {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+}
+
+nav,
+footer {
+  width: 100%;
+  line-height: 2;
+  word-spacing: 15px;
+  font-size: 14px;
+
+  a {
+    color: rgb(110, 110, 110);
+    font-weight: 450;
+
+    &:hover {
+      color: black;
+      transition: 0.5s ease;
+    }
+  }
+
+  .multiple {
+    word-spacing: 0;
+  }
+}
+
+nav {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main {
+  text-align: center;
+  @include flex;
+  justify-content: center;
+
+  img {
+    width: 45%;
+    margin: 5px;
+  }
+
+  &-bottom {
+    margin-top: 5px;
+  }
+}
+
+.favourites {
+  text-align: center;
+  margin: 80px 0;
+
+  &-heading {
+    h3 {
+      font-weight: 400;
+      font-size: 22px;
+      margin: 0;
+    }
+
+    p {
+      font-family: 'Times New Roman', Times, serif;
+      color: grey;
+    }
+  }
+
+  &-img {
+    @include flex;
+    justify-content: center;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &-column {
+    width: 40%;
+    margin: 0 5px;
+
+    p {
+      color: grey;
+    }
+
+    h4 {
+      margin: 0;
+      margin-top: 5px;
+      font-weight: 450;
+    }
+  }
+}
+
+.sale {
+  color: #535353;
+  text-decoration: line-through;
+
+  &-icon {
+    background: black;
+    margin: 0;
+    padding: 13px;
+    width: 60px;
+    letter-spacing: -1px;
+    border-radius: 70%;
+    position: relative;
+    z-index: 10;
+    left: 60px;
+    bottom: -40px;
+
+    p {
+      color: white;
+      margin: 0;
+    }
+  }
+}
+
+.padding {
+  padding-top: 50px;
+}
+
+#full {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  #small {
+    display: none;
+  }
+
+  #full {
+    display: block;
+  }
+}
+
+footer {
+  width: 90%;
+  margin: 80px auto;
+  text-align: center;
+
+  a {
+    color: rgb(180, 180, 180);
+  }
+
+  .footer-text {
+    padding: 10px 0;
+  }
+
+  .footer-socials {
+    margin-top: 40px;
+
+    i {
+      border-radius: 50%;
+      padding: 15px;
+      border: 1px solid rgb(204, 204, 204);
+
+      &:hover {
+        color: black;
+        transition: 0.7s ease-in;
+      }
+    }
+  }
+
+  .footer-rights {
+    margin: 40px 0;
+
+    p {
+      margin: 0;
+
+      &:first-child {
+        color: grey;
+        font-size: 12px;
+      }
+
+      &:last-child {
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 80px;
+      }
+    }
+  }
+}
+
+nav a {
+  cursor: default;
+}
+
+.active {
+  cursor: pointer;
+  color: blue;
+}
+
+@import 'media';
